@@ -3,6 +3,12 @@ uncategorized:
 upload but don't add to game:
 
 uploaded, wipe:
+5692158258 - Dunes - Map is already fixed, needs a time wipe for oob times in auto, faste and fly trials. (the id is from maps_surf.txt)
+17279603806 - Treespam - Map is already fixed, needs a time wipe for oob times in auto (top 11), all faste, all styles and fly trials. (the id is from maps_surf.txt)
+5692118983 - Ice - Map is already fixed, needs a time wipe in Faste. (the map id provided is the StrafesNET main map id)
+5692153113 - Who Knows 2 - Map is already fixed, needs a time wipe in Faste and on fly trials. (the map id provided is the StrafesNET main map id)
+5692135218 - Mausoleum - Map is from maps_surf.txt, wipe fly trials times
+8659326439 - Convey - Map is from maps_surf.txt, (only wipe main fly trials not bonus)
 
 tested, pending upload & wipe:
 
@@ -12,21 +18,33 @@ submitted fixes (wipe times):
 4726757120 - PEKO - fixed misaligned SpawnAt & patched faste oob map skip (only wipe times that use the skip)
 15244533771 - Lauren - fixed cc false walls and make some floors triggers. b3 needs all times wiped and all fly trials times need to be wiped
 1258610833 - Brain Power - (WIPE FASTE AND FLY TRIALS ONLY! and fixed a potential auto oob)
-16848148618 - Trikz Cloud - (ONLY DELETE TOP 2 AUTO (baro and ducky), and wipe faste) oob skip fixed
-5692153113 - Who Knows 2 - Map is already fixed, needs a time wipe in Faste and on fly trials. (the map id provided is the StrafesNET main map id)
-5692118983 - Ice - Map is already fixed, needs a time wipe in Faste. (the map id provided is the StrafesNET main map id)
+16848148618 - Trikz Cloud - (ONLY DELETE TOP 2 AUTO (baro and ducky), and wipe faste + fly trials) oob skip fixed
 109349367776979  - Karakai Jozu no Takagi-san - bonus zoned and gap in roof closed. all faste times until manners' (#32) need to be wiped. all fly trials times need to be wiped. fixed by xisablehx
 71180477733692 - Woodworks - bonus zoned, fix oob's, fixed spines and added a silly cat in bonus (mapper gave permission). wipe fly trials
 72984478824896 - Clique - Fixed several OOB possibilities. Wipe fly trials and top 70 faste. - fixed by xisablehx
-5692158258 - Dunes - Map is already fixed, needs a time wipe for oob times in auto, faste and fly trials. (the id is from maps_surf.txt)
-17279603806 - Treespam - Map is already fixed, needs a time wipe for oob times in auto (top 11), all faste, all styles and fly trials. (the id is from maps_surf.txt)
-86272671055892 - Andromeda - Fixed OOB (hand delete #1 auto and wipe faste) - Roblox_Leo2510
-134116453201242 - Example Map - Fix bonus oob (wipe every style on bonus) - Roblox_Leo2510
+86272671055892 - Andromeda - Fixed OOB (hand delete #1 auto and wipe faste and fly trials) - Roblox_Leo2510
+134116453201242 - Example Map - Fix bonus oob (wipe every style on bonus and fly trials) - Roblox_Leo2510
+15076284379 - Regret - fixed oob and lighting. wipe all times.
+121170303581252 - Venust - fixed oobs, wipe faste and fly trials. Zoned extra stage as bonus (original mapper gave permission) - offstyling
+116374951467432 - Windows 84 - fixed last stage, removed bounce, moved end, added more barriers to make faste times less cringe. wipe all times - antinodes
 
-tested, pending upload:
+uploaded fixes, ready for manual time deletion:
+15076282459 - Catalog - fixed standing on a higher part on the edge of mapstart. wipe top 16 auto and fly trials times.
+106048465070214 - Autumn - fixed starting on antitele, made spawn trees cc false, fixed big ramps made of 2 separate wedges (???) and causing bumps and faste/fly oob. remove top 2 auto, top 42 faste and fly trials times
+15076260262 - Lowest Bidder - fixed another oob and end clipping outside of boundary. Delete all oob times (up until roughly 37s auto)
+98225260067088 - Ancient - Fixed standing on start zone outside of the map. Wipe faste times faster than 1 minute and fly trials.
+110065543359147 - Quantum - Fixed going out of the map through Bonus. Wipe faste times faster than 20s and fly trials.
+
+submitted fixes (manual time deletion, list times needing deletion):
 
 submitted fixes (no wipe):
 132823328133223 - Paragov - Fixed bumpy ramps - Roblox_Leo2510
+121926445223990 - Diminsion - Fixed trigger clipping into ramp - littlefarrell
+127007754080449 - Luminous - Sized B1 start zone so its not in the floor - littlefarrell
+82038450536711  -  Medieval - Fixed final ramp b2 spine bug - littlefarrell
+82666750974141 - Something - Fixed triggers on b1 to consistently go to bonus spawn - littlefarrell
+108936310330553 - Lezgo II - moved closer to origin (should fix spine issues) - littlefarrell 
+
 
 add map data:
 17143740888 - Dionysus - Fixed a ramp with a bad spine, made it possible to go through ring and enter endzone, changed startzone to spawn you in the main map instead of in a pitch black room.
@@ -37,16 +55,12 @@ tested, pending upload & add map data:
 
 submitted fixes need add map data:
 569053285 - Sand Temple - now possible - delayed due to moving parts being bad
+72031290840697 - Royal - Ramp fixes, adjusted for new hitbox, adjusted s3 triggers for consistency, moved closer to origin, added SetVels for anti teles - littlefarrell
 
 rejected fixes, additional fix notes:
-852889271 - Golden Glory - ramp fix - fall through ramp???
-10066332884 - O-oh hi-i t-there, J-J-Jill - spawn is buggy, bumpy ramps, especially 2nd ramp
-621876510 - Space Jam - idk - there is already a great fix published
 10076918777 - Water Valley - Fixed bhopping on mountains (out of bound skip) - The player should never have to know where invisible walls are to run the map.  Perhaps make the mountain triggers instead.
 459306841 - Winterland - ramp fix - needs more fixes, still bumpy ramps
 12615410485 - surf_pain (updated ID) bonus 4 endzone fix. - use execution context instead of a script distributor for local scripts.
-14214740439 - Memorial - rampfix, better lighting & textures, new skybox - the spine fix ruins the surf made of 6 wedges with a concavity underneath
-5272229281 - Luminous - made possible - lower the surfs a bit, you can't walk off some spawns onto the surfs
 13605711173 - Ineffable - made possible - ramp textures are wack on the ends, map is harder because of tall hitbox
 13634743943 - Ineffable 2 - made possible - ramp with z fighting causes physics issues 2 ramps before circle spin thing, map is harder because of tall hitbox
 14122828826 - Sandstorm Supergiant - made possible - not adjusted for new physics enough, lighting needs fix
@@ -56,4 +70,3 @@ rejected fixes, additional fix notes:
 16249306971 - Slope - Resized start zone to prevent height advantage from leaving and re entering start zone (Abusing times will be deleted manually) - ditto above above.
 16249264391 - Shard - Resized start zone to prevent height advantage from leaving and re entering start zone (Abusing times will be deleted manually) - ditto above above above.
 2637387680 - Accident 2 - fixed halloween stage - blocked due to lighting fixer - use a Script with RunContext set to Client instead of a loader
-16279647725 - Andromeda - fixed oob, patched rock surf/hop at start (duckadvice) - polled at 71%
